@@ -1,5 +1,6 @@
 var express = require("express");
 var app = express();
+const mongoose = require("mongoose");
 
 app.get("/", function (req, res) {
   res.send('{ "response": "Hello From Thetips4you" }');
